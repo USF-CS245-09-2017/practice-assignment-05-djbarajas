@@ -4,6 +4,10 @@ public class QuickSort implements SortingAlgorithm {
         quicksort(a, 0, a.length-1);
     }
 
+    /*
+    * swap()
+    * swaps 2 elements in the array
+     */
     void swap(int [] a,int i,int j){
         int temp = a[i];
         a[i] = a[j];
