@@ -17,6 +17,7 @@ public class MergeSort implements SortingAlgorithm {
         if(right.length > 1) {
             sort(right);
         }
+
         merge(left,right,a);
     }
 
