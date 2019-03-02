@@ -13,6 +13,12 @@ public class QuickSort implements SortingAlgorithm {
         a[i] = a[j];
         a[j] = temp;
     }
+    /*
+    * quicksort()
+    * partitions the array based on the pivot
+    * quicksorts the first half and second
+    * half
+     */
 
     void quicksort (int [] arr, int left, int right) {
         if (left < right) {
@@ -22,6 +28,11 @@ public class QuickSort implements SortingAlgorithm {
         }
     }
 
+    /*
+    * partition()
+    * creates a pivot and sorts the array based on
+    * that pivot with i and j being indexes to swap
+     */
     int partition (int [] arr, int left, int right) {
         if (left < right) {
             int pivot = left;
