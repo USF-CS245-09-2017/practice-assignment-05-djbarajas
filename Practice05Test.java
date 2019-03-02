@@ -199,7 +199,7 @@ public class Practice05Test {
 		
 		Practice05Test timing = new Practice05Test();
 		int [] sizes = {50000, 100000, 150000, 200000, 250000, 300000, 350000, 400000, 450000, 500000};
-		// int [] sizes = {5, 10};
+		//int[] sizes = {100,200,300,400,500,600,700,800,900,1000};
 		
 		for (int size : sizes) {
 			timing.changeArraySize(size);
